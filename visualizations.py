@@ -323,7 +323,7 @@ def app():
        <div class="visualization-text">
            <div class="paragraph">
                <p style="font-size: 20px; text-align: justify;">
-                   Explore interactive visualizations highlighting key areas at risk of terrorist attacks in Nigeria. 
+                   interactive visualizations highlighting key areas at risk of terrorist attacks in Nigeria. 
                    Our dynamic maps and data-driven charts provide a clear view of past incidents and potential coordinates.
                    Use these insights to better understand the distribution and frequency of attacks, which will help inform preventive measures and strategic planning.
                    Navigate through the visuals to stay informed and proactive in enhancing security within vulnerable regions.
