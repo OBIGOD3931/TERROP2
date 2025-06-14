@@ -422,6 +422,12 @@ def app():
         },
     }
 
+    st.title("GIS Location")
+
+    # Load and display GIS image
+    image = Image.open("images/gis.jpg")
+    st.image(image, caption="GIS Location", use_column_width=True)
+
     # Sidebar for plot selection
     selected_plots = []
     st.sidebar.header("Select Plots to Display")
