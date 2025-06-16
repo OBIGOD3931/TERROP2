@@ -323,7 +323,7 @@ def app():
        <div class="visualization-text">
            <div class="paragraph">
                <p style="font-size: 20px; text-align: justify;">
-                   interactive visualizations highlighting key areas at risk of terrorist attacks in Nigeria. 
+                   Explore interactive visualizations highlighting key areas at risk of terrorist attacks in Nigeria. 
                    Our dynamic maps and data-driven charts provide a clear view of past incidents and potential coordinates.
                    Use these insights to better understand the distribution and frequency of attacks, which will help inform preventive measures and strategic planning.
                    Navigate through the visuals to stay informed and proactive in enhancing security within vulnerable regions.
@@ -347,20 +347,6 @@ def app():
        """,
        unsafe_allow_html=True
       )
-
-     st.markdown(
-            """
-            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #f8f9fa; margin: 0; padding: 0; width: 100%; gap: 0;">
-                <div style="margin: 0; padding: 0;">
-                    <img src="images/gis.jpg" alt="GIS Location" style="width: 200px; height: 200px; border-radius: 8px;">
-                </div>
-                <div style="font-size: 18px; color: #444; text-transform: uppercase; text-align: center; margin: 0; padding: 0;">
-                    <span style="font-weight: bold;">Terrorist Attack</span> <br> Terrorism creates fear
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
 
     st.title("GIS Location")
 
